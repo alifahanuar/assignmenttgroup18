@@ -36,7 +36,7 @@ const options = {
               "jwt": []
     }]
     },
-    apis: ['app.js'], // Path to the API routes file(s)
+    apis: ['hostel.js'], // Path to the API routes file(s)
   };
   
   const swaggerSpec = swaggerJSDoc(options);
