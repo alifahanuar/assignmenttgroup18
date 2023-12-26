@@ -20,7 +20,7 @@ const options = {
       },
       servers: [
         {
-          url: `https://assignmenttgroup18.azurewebsites.net`,
+          url: `http://localhost:f${port}`,
         },
       ],
       components: {
@@ -37,7 +37,7 @@ const options = {
               "jwt": []
     }]
     },
-    apis: ['hostel.js'], // Path to the API routes file(s)
+    apis: ['./hostel.js'], // Path to the API routes file(s)
   };
   
   const swaggerSpec = swaggerJSDoc(options);
