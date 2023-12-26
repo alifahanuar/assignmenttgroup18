@@ -1,1 +1,3 @@
-# assignmenttgroup18
+# assignmenttgroup18"scripts": {
+ "start": "node index.js"
+ },
